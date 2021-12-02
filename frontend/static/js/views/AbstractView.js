@@ -1,6 +1,6 @@
 export default class {
-    constructure() {
-
+    constructure(params) {
+        this.params = params;
     }
 
     setTitle(title) {
